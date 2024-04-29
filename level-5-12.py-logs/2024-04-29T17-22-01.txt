@@ -1,0 +1,1 @@
+b -> c, c -> a, d -> e, e -> f, f -> a, a -> b, c -> f, f -> d

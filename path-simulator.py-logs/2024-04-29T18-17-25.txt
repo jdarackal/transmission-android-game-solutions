@@ -1,0 +1,113 @@
+Nodes:
+	Slots	Empty	Blocks	In color  Out color
+a	3	3	0	None	  None
+b	4	3	1	W	  W
+c	2	2	0	None	  None
+d	2	1	1	O	  O
+e	2	1	1	O	  O
+f	3	3	0	O	  O
+
+--------------------------------------------------------------------------------
+        
+Connections: b -> c
+
+Nodes:
+	Slots	Empty	Blocks	In color  Out color
+a	3	3	0	None	  None
+b	4	3	0	W	  W
+c	2	1	1	W	  O
+d	2	1	1	O	  O
+e	2	1	1	O	  O
+f	3	3	0	O	  O
+
+--------------------------------------------------------------------------------
+        
+Connections: b -> c, c -> f
+
+Nodes:
+	Slots	Empty	Blocks	In color  Out color
+a	3	3	0	None	  None
+b	4	3	0	W	  W
+c	2	1	0	W	  O
+d	2	1	1	O	  O
+e	2	1	1	O	  O
+f	3	2	1	O	  O
+
+--------------------------------------------------------------------------------
+        
+Connections: b -> c, c -> f, e -> d
+
+Nodes:
+	Slots	Empty	Blocks	In color  Out color
+a	3	3	0	None	  None
+b	4	3	0	W	  W
+c	2	1	0	W	  O
+d	2	0	2	O	  O
+e	2	1	0	O	  O
+f	3	2	1	O	  O
+
+--------------------------------------------------------------------------------
+        
+Connections: b -> c, c -> f, e -> d, d -> f
+
+Nodes:
+	Slots	Empty	Blocks	In color  Out color
+a	3	3	0	None	  None
+b	4	3	0	W	  W
+c	2	1	0	W	  O
+d	2	0	0	O	  O
+e	2	1	0	O	  O
+f	3	0	3	O	  O
+
+--------------------------------------------------------------------------------
+        
+Connections: b -> c, c -> f, e -> d, d -> f, f -> e
+
+Nodes:
+	Slots	Empty	Blocks	In color  Out color
+a	3	3	0	None	  None
+b	4	3	0	W	  W
+c	2	1	0	W	  O
+d	2	0	0	O	  O
+e	2	0	1	O	  O
+f	3	0	2	O	  O
+
+--------------------------------------------------------------------------------
+        
+Connections: b -> c, c -> f, e -> d, d -> f, f -> e, f -> a
+
+Nodes:
+	Slots	Empty	Blocks	In color  Out color
+a	3	1	2	O	  W
+b	4	3	0	W	  W
+c	2	1	0	W	  O
+d	2	0	0	O	  O
+e	2	0	1	O	  O
+f	3	0	0	O	  O
+
+--------------------------------------------------------------------------------
+        
+Connections: b -> c, c -> f, e -> d, d -> f, f -> e, f -> a, a -> b
+
+Nodes:
+	Slots	Empty	Blocks	In color  Out color
+a	3	1	0	O	  W
+b	4	1	1	W	  W
+c	2	0	1	W	  O
+d	2	0	0	O	  O
+e	2	0	1	O	  O
+f	3	0	0	O	  O
+
+--------------------------------------------------------------------------------
+        
+Connections: b -> c, c -> f, e -> d, d -> f, f -> e, f -> a, a -> b, c -> a
+
+Nodes:
+	Slots	Empty	Blocks	In color  Out color
+a	3	0	0	O	  W
+b	4	0	2	W	  W
+c	2	0	0	W	  O
+d	2	0	0	O	  O
+e	2	0	1	O	  O
+f	3	0	0	O	  O
+
